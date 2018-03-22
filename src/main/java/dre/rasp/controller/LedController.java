@@ -3,6 +3,8 @@ package dre.rasp.controller;
 import com.pi4j.io.gpio.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
+@RestController
 public class LedController {
 
    private static GpioPinDigitalOutput pin;
